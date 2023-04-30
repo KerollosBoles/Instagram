@@ -15,6 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final double widthScreen = MediaQuery.of(context).size.width;
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+          title:
+              widthScreen > 600 ? Text("Web Screen") : Text("Mobile Screen")),
+    );
   }
 }
