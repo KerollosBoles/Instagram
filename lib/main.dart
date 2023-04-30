@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    final double widthScreen = MediaQuery.of(context).size.width;
+    return Scaffold();
   }
 }
