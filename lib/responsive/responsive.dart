@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/responsive/mobile.dart';
+import 'package:instagram/responsive/web.dart';
 
 class Responsive extends StatefulWidget {
   const Responsive({super.key});
@@ -10,6 +12,16 @@ class Responsive extends StatefulWidget {
 class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: builder);
+    return LayoutBuilder(
+      builder: (BuildContext : BoxConstraints) {
+        if (BoxConstraints.maxWidth > 600){
+          return Web();
+        }
+        else{
+          return Mobile();
+        }
+
+      }
+      );
   }
 }
