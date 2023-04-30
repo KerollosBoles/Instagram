@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:instagram/responsive/responsive.dart';
 
 import 'package/flutte.//,iir/material.dart';
 
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return const MaterialApp(
+      home: Responsive(),
+    );
   }
 }
