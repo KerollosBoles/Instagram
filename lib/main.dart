@@ -5,10 +5,12 @@ import 'package:flutter/src/widgets/framework.dart';
 
 import 'package/flutte.//,iir/material.dart';
 
-void main() {}
+void main() {
+  runApp(const MyApp());
+}
 
-class main extends StatelessWidget {
-  const main({Key : key}) : super(key?key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
