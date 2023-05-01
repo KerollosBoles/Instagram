@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 
-class AddPostScreen extends StatelessWidget {
-  const AddPostScreen({Key? key}) : super(key: key);
+class AddPost extends StatefulWidget {
+  const AddPost({super.key});
 
   @override
+  State<AddPost> createState() => _AddPostState();
+}
+
+class _AddPostState extends State<AddPost> {
+  @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Home Screen"),
+      ),
+    );
   }
 }
-//importing full add_posts 
