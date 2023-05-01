@@ -44,6 +44,7 @@ class _MobileScreenState extends State<MobileScreen> {
           children: [
             Home(),
             Search(),
+            AddPost(),
           ],
         ));
   }
