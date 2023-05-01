@@ -38,7 +38,7 @@ class _MobileScreenState extends State<MobileScreen> {
           ],
         ),
         body: PageView(
-          onPageChanged: (index) {},
+          //   onPageChanged: (index) {},
           physics: NeverScrollableScrollPhysics(),
           // controller: _pageController,
           children: [
