@@ -27,8 +27,7 @@ class _MobileScreenState extends State<MobileScreen> {
           BottomNavigationBarItem(
               icon: Icon(Icons.add_circle, color: secondaryColor), label: ""),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite, color: secondaryColor),
-              label: "Likes"),
+              icon: Icon(Icons.favorite, color: secondaryColor), label: ""),
           BottomNavigationBarItem(
               icon: Icon(Icons.person, color: secondaryColor), label: ""),
         ],
