@@ -15,8 +15,13 @@ class MobileScreen extends StatefulWidget {
 }
 
 class _MobileScreenState extends State<MobileScreen> {
-  @override
   final PageController _pageController = PageController();
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
 
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,7 +55,7 @@ class _MobileScreenState extends State<MobileScreen> {
             Home(),
             Search(),
             AddPost(),
-           Center(child: Text("I Love U *_*"))
+            Center(child: Text("I Love U *_*")),
             Profile(),
           ],
         ));
