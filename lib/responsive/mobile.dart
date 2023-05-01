@@ -32,6 +32,13 @@ class _MobileScreenState extends State<MobileScreen> {
               icon: Icon(Icons.person, color: secondaryColor), label: ""),
         ],
       ),
+    
+      body: PageView(
+   onPageChanged: (index) {},
+   physics: NeverScrollableScrollPhysics(),      
+  // controller: _pageController,
+   children: [...],
+                )
     );
   }
 }
