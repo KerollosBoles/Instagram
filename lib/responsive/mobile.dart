@@ -25,7 +25,10 @@ class _MobileScreenState extends State<MobileScreen> {
         ),
         bottomNavigationBar: CupertinoTabBar(
           backgroundColor: mobileBackgroundColor,
-          onTap: (index) {},
+          onTap: (index) {
+            // navigate to the tabed page
+            _pageController.jumpToPage(index);
+          },
           items: [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home, color: primaryColor), label: ""),
@@ -42,7 +45,7 @@ class _MobileScreenState extends State<MobileScreen> {
         body: PageView(
           //   onPageChanged: (index) {},
           physics: NeverScrollableScrollPhysics(),
-          // controller: _pageController,
+          controller: _pageController,
           children: [
             Home(),
             Search(),
