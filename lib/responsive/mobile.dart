@@ -43,6 +43,7 @@ class _MobileScreenState extends State<MobileScreen> {
           // controller: _pageController,
           children: [
             Home(),
+            Search(),
           ],
         ));
   }
