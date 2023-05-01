@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Responsive(myMobileScreen: Mobile(), myWebScreen: Web()),
+      debugShowCheckedModeBanner: false,
+      home:
+          Responsive(myMobileScreen: MobileScreen(), myWebScreen: WebScreen()),
     );
   }
 }
