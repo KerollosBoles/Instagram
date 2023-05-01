@@ -16,6 +16,8 @@ class MobileScreen extends StatefulWidget {
 
 class _MobileScreenState extends State<MobileScreen> {
   @override
+  final PageController _pageController = PageController();
+
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
