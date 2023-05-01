@@ -21,18 +21,16 @@ class _MobileScreenState extends State<MobileScreen> {
         onTap: (index) {},
         items: [
           BottomNavigationBarItem(
-              icon: Icon(Icons.home, color: primaryColor), label: "Home"),
+              icon: Icon(Icons.home, color: primaryColor), label: ""),
           BottomNavigationBarItem(
-              icon: Icon(Icons.search, color: secondaryColor), label: "Search"),
+              icon: Icon(Icons.search, color: secondaryColor), label: ""),
           BottomNavigationBarItem(
-              icon: Icon(Icons.add_circle, color: secondaryColor),
-              label: "Add"),
+              icon: Icon(Icons.add_circle, color: secondaryColor), label: ""),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite, color: secondaryColor),
               label: "Likes"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.person, color: secondaryColor),
-              label: "Profile"),
+              icon: Icon(Icons.person, color: secondaryColor), label: ""),
         ],
       ),
     );
