@@ -19,7 +19,8 @@ class _MobileScreenState extends State<MobileScreen> {
       bottomNavigationBar: CupertinoTabBar(
         backgroundColor: mobileBackgroundColor,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.home, color: primaryColor), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
         ],
       ),
