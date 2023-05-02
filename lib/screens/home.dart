@@ -38,11 +38,18 @@ class _HomeState extends State<Home> {
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(
-                        radius: 33,
-                        backgroundImage: NetworkImage(
-                            // widget.snap["profileImg"],
-                            "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg"),
+                      Container(
+                        padding: EdgeInsets.all(3),
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Color.fromARGB(125, 78, 91, 110),
+                        ),
+                        child: CircleAvatar(
+                          radius: 33,
+                          backgroundImage: NetworkImage(
+                              // widget.snap["profileImg"],
+                              "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg"),
+                        ),
                       ),
                       SizedBox(
                         width: 17,
@@ -127,7 +134,7 @@ class _HomeState extends State<Home> {
             ),
             Container(
               width: double.infinity,
-              margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+              margin: EdgeInsets.fromLTRB(10, 0, 5, 10),
               child: Text(
                 "19 june 2004",
                 textAlign: TextAlign.start,
