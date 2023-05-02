@@ -39,6 +39,9 @@ class _HomeState extends State<Home> {
                       // widget.snap["profileImg"],
                       "https://www.facebook.com/photo/?fbid=2036994816504337&set=a.105234589680379"),
                 ),
+                SizedBox(
+                  width: 17,
+                )
               ],
             ),
           ],
