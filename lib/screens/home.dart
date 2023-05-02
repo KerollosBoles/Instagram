@@ -16,8 +16,11 @@ class _HomeState extends State<Home> {
       backgroundColor: mobileBackgroundColor,
       appBar: AppBar(
         backgroundColor: mobileBackgroundColor,
-        title:
-            SvgPicture.asset("assets/img/instagram.svg", color: primaryColor),
+        title: SvgPicture.asset(
+          "assets/img/instagram.svg",
+          color: primaryColor,
+          height: 35,
+        ),
       ),
     );
   }
