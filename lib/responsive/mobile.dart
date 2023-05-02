@@ -25,7 +25,7 @@ class _MobileScreenState extends State<MobileScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        // appBar: AppBar(),
         bottomNavigationBar: CupertinoTabBar(
           backgroundColor: mobileBackgroundColor,
           onTap: (index) {
