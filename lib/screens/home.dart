@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
               width: double.infinity,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 14),
+              padding: const EdgeInsets.symmetric(vertical: 11),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -89,9 +89,7 @@ class _HomeState extends State<Home> {
                 child: Text(
                   "10K Likees",
                   textAlign: TextAlign.start,
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  style: TextStyle(fontSize: 16, color: secondaryColor),
                 )),
           ],
         ));
