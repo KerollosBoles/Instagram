@@ -121,8 +121,17 @@ class _HomeState extends State<Home> {
                 child: Text(
                   "View 100 comments",
                   textAlign: TextAlign.start,
-                  style: TextStyle(fontSize: 16, color: primaryColor),
+                  style: TextStyle(fontSize: 16, color: Colors.blue),
                 ),
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+              child: Text(
+                "19 june 2004",
+                textAlign: TextAlign.start,
+                style: TextStyle(fontSize: 16, color: secondaryColor),
               ),
             ),
           ],
