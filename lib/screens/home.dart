@@ -31,7 +31,16 @@ class _HomeState extends State<Home> {
         ),
         body: Column(
           children: [
-            Row(),
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 33,
+                  backgroundImage: NetworkImage(
+                      // widget.snap["profileImg"],
+                      "https://www.facebook.com/photo/?fbid=2036994816504337&set=a.105234589680379"),
+                ),
+              ],
+            ),
           ],
         ));
   }
