@@ -113,6 +113,18 @@ class _HomeState extends State<Home> {
                 ),
               ],
             ),
+            GestureDetector(
+              onTap: () {},
+              child: Container(
+                width: double.infinity,
+                margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                child: Text(
+                  "View 100 comments",
+                  textAlign: TextAlign.start,
+                  style: TextStyle(fontSize: 16, color: primaryColor),
+                ),
+              ),
+            ),
           ],
         ));
   }
