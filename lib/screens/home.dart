@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:instagram/shared/colors.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -13,7 +14,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: SvgPicture.asset("assets/img/instagram.svg"),
+        title:
+            SvgPicture.asset("assets/img/instagram.svg", color: primaryColor),
       ),
     );
   }
