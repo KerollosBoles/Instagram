@@ -67,9 +67,9 @@ class _HomeState extends State<Home> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 14),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       IconButton(
                           onPressed: () {}, icon: Icon(Icons.favorite_border)),
