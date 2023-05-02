@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
                     ),
                   ],
                 ),
-                IconButton(onPressed: () {}, icon: Icon(Icon.more_vert)),
+                IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
               ],
             ),
           ],
