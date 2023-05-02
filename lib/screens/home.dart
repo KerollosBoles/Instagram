@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
               width: double.infinity,
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.symmetric(vertical: 14),
               child: Row(
                 children: [
                   Row(
