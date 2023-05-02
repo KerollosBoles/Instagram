@@ -33,19 +33,24 @@ class _HomeState extends State<Home> {
           children: [
             Row(
               children: [
-                CircleAvatar(
-                  radius: 33,
-                  backgroundImage: NetworkImage(
-                      // widget.snap["profileImg"],
-                      "https://www.facebook.com/photo/?fbid=2036994816504337&set=a.105234589680379"),
+                Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 33,
+                      backgroundImage: NetworkImage(
+                          // widget.snap["profileImg"],
+                          "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg6504337&set=a.105234589680379"),
+                    ),
+                    SizedBox(
+                      width: 17,
+                    ),
+                    Text(
+                      "Kerollos Boles",
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ],
                 ),
-                SizedBox(
-                  width: 17,
-                ),
-                Text(
-                  "Kerollos Boles",
-                  style: TextStyle(fontSize: 18),
-                )
+                IconButton(onPressed: () {}, icon: Icon(Icon.more_vert)),
               ],
             ),
           ],
