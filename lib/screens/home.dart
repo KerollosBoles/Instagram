@@ -34,6 +34,7 @@ class _HomeState extends State<Home> {
             Row(
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     CircleAvatar(
                       radius: 33,
