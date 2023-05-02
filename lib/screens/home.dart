@@ -84,13 +84,35 @@ class _HomeState extends State<Home> {
               ),
             ),
             Container(
-                margin: EdgeInsets.fromLTRB(10, 0, 0, 10),
-                width: double.infinity,
-                child: Text(
-                  "10K Likees",
+              margin: EdgeInsets.fromLTRB(10, 0, 0, 10),
+              width: double.infinity,
+              child: Text(
+                "10K Likees",
+                textAlign: TextAlign.start,
+                style: TextStyle(fontSize: 16, color: secondaryColor),
+              ),
+            ),
+            Row(
+              children: [
+                SizedBox(
+                  width: 9,
+                ),
+                Text(
+                  // "${widget.snap["username"]}",
+                  "Kerollos Boles ",
                   textAlign: TextAlign.start,
-                  style: TextStyle(fontSize: 16, color: secondaryColor),
-                )),
+                  style: TextStyle(
+                      fontSize: 20, color: Color.fromARGB(255, 189, 196, 199)),
+                ),
+                Text(
+                  // " ${widget.snap["description"]}",
+                  " Sidi Bou Said ♥",
+                  textAlign: TextAlign.start,
+                  style: TextStyle(
+                      fontSize: 18, color: Color.fromARGB(255, 189, 196, 199)),
+                ),
+              ],
+            ),
           ],
         ));
   }
