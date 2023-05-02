@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:instagram/screens/add_post.dart';
 import 'package:instagram/screens/search.dart';
 import 'package:instagram/shared/colors.dart';
-
+import 'package:flutter_svg/flutter_svg.dart';
 import '../screens/home.dart';
 import '../screens/profile.dart';
 
