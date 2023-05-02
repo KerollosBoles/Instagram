@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
                       radius: 33,
                       backgroundImage: NetworkImage(
                           // widget.snap["profileImg"],
-                          "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg6504337&set=a.105234589680379"),
+                          "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg"),
                     ),
                     SizedBox(
                       width: 17,
