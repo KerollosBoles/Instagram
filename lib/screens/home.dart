@@ -31,13 +31,12 @@ class _HomeState extends State<Home> {
         ),
         body: Column(
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Padding(
-                  padding:
-                      const EdgeInsets.symmetric(vertical: 16, horizontal: 13),
-                  child: Row(
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 13),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
                     children: [
                       CircleAvatar(
                         radius: 33,
@@ -54,9 +53,16 @@ class _HomeState extends State<Home> {
                       ),
                     ],
                   ),
-                ),
-                IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
-              ],
+                  IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
+                ],
+              ),
+            ),
+            Image.network(
+              // widget.snap["postUrl"],
+              "https://cdn1-m.alittihad.ae/store/archive/image/2021/10/22/6266a092-72dd-4a2f-82a4-d22ed9d2cc59.jpg?width=1300",
+              fit: BoxFit.cover,
+              height: MediaQuery.of(context).size.height * 0.35,
+              width: double.infinity,
             ),
           ],
         ));
