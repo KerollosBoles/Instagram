@@ -64,6 +64,11 @@ class _HomeState extends State<Home> {
               height: MediaQuery.of(context).size.height * 0.35,
               width: double.infinity,
             ),
+           Row(
+            children: [
+              IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border))
+           ],)
+            ),
           ],
         ));
   }
