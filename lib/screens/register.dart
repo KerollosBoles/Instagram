@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:instagram/screens/sign_in.dart';
 import 'package:path/path.dart' show basename;
 import '../screens/add_post.dart';
 import '../screens/home.dart';
