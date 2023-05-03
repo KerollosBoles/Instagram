@@ -6,6 +6,7 @@ import 'package:instagram/responsive/mobile.dart';
 import 'package:instagram/responsive/responsive.dart';
 import 'package:instagram/responsive/web.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram/screens/sign_in.dart';
 
 void main() {
   runApp(const MyApp());
