@@ -7,14 +7,14 @@ import '../screens/profile.dart';
 import '../screens/search.dart';
 import '../shared/colors.dart';
 
-class WebScerren extends StatefulWidget {
-  const WebScerren({Key? key}) : super(key: key);
+class WebScreen extends StatefulWidget {
+  const WebScreen({Key? key}) : super(key: key);
 
   @override
-  State<WebScerren> createState() => _WebScerrenState();
+  State<WebScreen> createState() => _WebScreenState();
 }
 
-class _WebScerrenState extends State<WebScerren> {
+class _WebScreenState extends State<WebScreen> {
   final PageController _pageController = PageController();
   int page = 0;
 
